@@ -12,7 +12,7 @@ if (isset($_POST['Login'])) {
     $pass = $_POST['pass'];
 
     // Perbaikan: menggunakan '==' bukan '=' untuk membandingkan password
-    if ($user == "rahadian" && $pass == "123") {
+    if ($user == "faris" && $pass == "123") {
         // menciptakan session
         $_SESSION['login'] = $user;
 
